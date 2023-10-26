@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Variáveis e Constantes</title>
+    <style>
+        p { font-family: verdana; }
+        
+        .destaque {
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+
 </head>
+
 <body>
 
     <h1>Variáveis e Constantes</h1>
