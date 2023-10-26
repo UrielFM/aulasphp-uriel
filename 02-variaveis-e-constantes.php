@@ -39,7 +39,11 @@ echo "<p>Estamos no " .$curso. " em " .$ano.".</p>";
 
 <?php
 // Cosntantes (recomenda-se dar nome em MAIUSULAS)
+
+// Forma antiga, tradicional
 define("AUTOR", "Uriel Farias Mishima");
+
+// Forma moderna, atual
 const EMPRESA = "ABC Tecnologia";
 const ANO_FUNDACAO = 2000;
 ?>
