@@ -35,6 +35,23 @@ echo "<p>Estamos no " .$curso. " em " .$ano.".</p>";
 <!-- Forma de saída ABREVIADA/SIMPLIFICADA -->
 <p>Estamos no <?=$curso?> em <?=$ano?>.</p>
 
+<hr>
+
+<?php
+// Cosntantes (recomenda-se dar nome em MAIUSULAS)
+define("AUTOR", "Uriel Farias Mishima");
+const EMPRESA = "ABC Tecnologia";
+const ANO_FUNDACAO = 2000;
+?>
+
+
+<!-- Saídas -->
+<p>Autor de site: <?=AUTOR?></p>
+<p>Nome da empresa: <?=EMPRESA?></p>
+<p>Fundada em: <?=ANO_FUNDACAO?></p>
+
+<hr>
+
 
 </body>
 </html>
