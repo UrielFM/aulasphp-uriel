@@ -30,7 +30,9 @@ $area = "Back-End";
 /* Formas de saida COMPLETAS VIA PHP */
 
 // Saida interpolada
-echo "<p>Estamos no $curso em $ano.</p>";
+echo "<p>Estamos no <span class='destaque' >$curso</span> em $ano.</p>";
+echo "<p>Estamos no <span class=\"destaque\" >$curso</span> em $ano.</p>";
+
 
 // Não dá certo, as variáveis são tratadas como texto
 echo '<p>Estamos no $curso em $ano.</p>';
@@ -43,7 +45,7 @@ echo "<p>Estamos no " .$curso. " em " .$ano.".</p>";
 <hr>
 
 <!-- Forma de saída ABREVIADA/SIMPLIFICADA -->
-<p>Estamos no <?=$curso?> em <?=$ano?>.</p>
+<p>Estamos no <span class="destaque"><?=$curso?></span> em <?=$ano?>.</p>
 
 <hr>
 
@@ -65,6 +67,8 @@ const ANO_FUNDACAO = 2000;
 <p>Fundada em: <?=ANO_FUNDACAO?></p>
 
 <hr>
+
+
 
 
 </body>
