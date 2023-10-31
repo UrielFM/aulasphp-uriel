@@ -80,7 +80,7 @@ $filme = array(
     <?=var_dump($livro)?>
 </pre>
 
-
+<hr>
     
 </body>
 </html>
