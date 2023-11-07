@@ -67,13 +67,15 @@ if($numero > 20){
 
 <?php
 // Controle de Estoque
-$produto = "Ultrabook Dell";
-$qtdEmEstoque =5; //o que temos no momento
+$produto = "PC";
+// $marca = "Dell";
+$qtdEmEstoque = 5; //o que temos no momento
 $qtdCritica = 2; //mínimo nescessário
 
 ?>
 
 <h3>Produto: <?=$produto?></h3>
+<!-- <h4>Marca: <?=$marca?></h4> -->
 <h4>Estoque: <?=$qtdEmEstoque?></h4>
 
 
@@ -103,9 +105,42 @@ var_dump($a == $b); //true
 // === IGUALDADE DE VALORES E TIPO DE DADOS
 
 var_dump($a === $b); //false
-
-
 ?>
+<hr>
+<h2>Encadeada (if, else e elseif)</h2>
+
+<?php
+
+// Verificar o produto para dar uma garantia
+
+if ($produto == "Ultrabook") {
+    $garantia = 5;
+}elseif($produto == "Geladeira"){
+    $garantia = 3;
+} elseif ($produto == "TV") {
+    $garantia = 2;
+} else {
+    $garantia = 1;
+}
+?>
+
+
+<p>O produto <?=$produto?> possui garantia de <?=$garantia?> ano<?php if($garantia>1) echo "s" ?>.</p>
+
+
+<h3>Encadeada usando switch/case</h3>
+
+<?php //switch (analise/escolha/avalie)
+
+switch ($produto) {
+    case "Ultrabook": $garantia = 5; break;
+    case "Geladeira": $garantia = 3; break;
+    case "TV": $garantia = 2; break;
+    default: $garantia = 1; break;
+}
+?>
+<p>Produto: <?=$produto?></p>
+<p>Garantia: <?=$garantia?> ano<?php if($garantia>1) echo "s" ?>.</p>
 
 </body>
 </html>
