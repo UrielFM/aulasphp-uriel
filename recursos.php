@@ -6,7 +6,7 @@ $linguagens = ["HTML", "CSS", "JS"];
 
 ?>
 
-<!-- <style>
+<style>
 h1{
     text-align: center;
     font-size: 50px;
@@ -50,9 +50,19 @@ h3 {
             color: blue;
         }
 
-        .lista-zebrada li {
-            padding: 8px;
-            border-bottom: 1px solid #ccc;
-        }
+.lista-zebrada li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
 
-</style> -->
+.lista-zebrada li:nth-child(even) {
+    background-color: #f2f2f2;
+    color: blue;
+}
+
+.lista-zebrada li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+</style>

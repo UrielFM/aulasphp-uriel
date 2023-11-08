@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Condicionais</title>
 
-<style>
+<!-- <style>
 h1{
     text-align: center;
     font-size: 50px;
@@ -46,7 +46,7 @@ h3 {
     font-weight: bold;
 }
 
-</style>
+</style> -->
 
 </head>
 <body>

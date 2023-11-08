@@ -9,7 +9,7 @@
     <title>LOOPS</title>
 
     <style>
-        .lista-zebrada li:nth-child(even) {
+        /* .lista-zebrada li:nth-child(even) {
             background-color: #f2f2f2;
             color: blue;
         }
@@ -17,12 +17,18 @@
         .lista-zebrada li {
             padding: 8px;
             border-bottom: 1px solid #ccc;
-        }
+        } */
     </style>
 
 </head>
 
 <body>
+
+<?php foreach($linguagens as $linguagem){ ?>
+
+    <p><i><?=$linguagem?></i></p>
+
+<?php } ?>
 
     <h1>Loops</h1>
     <hr>
