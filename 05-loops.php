@@ -1,4 +1,5 @@
-<?php require "recurssos.php"; ?>
+<?php require "recursos.php"; ?>
+<!-- se tiver erro o "require" não deixa a pagina funcionar diferente do "include" que funciona a pagina mas com erro  -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
