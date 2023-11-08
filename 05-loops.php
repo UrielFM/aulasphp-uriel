@@ -81,7 +81,6 @@
     <hr>
     <h3>foreach</h3>
     <?php foreach ($alunos as $aluno) {
-        # code...
     ?>
         <p>Aluno: <?=$aluno?></p>
     <?php
