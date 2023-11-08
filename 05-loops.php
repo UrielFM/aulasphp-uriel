@@ -1,4 +1,4 @@
-<?php include "recursos.php"; ?>
+<?php require "recurssos.php"; ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
