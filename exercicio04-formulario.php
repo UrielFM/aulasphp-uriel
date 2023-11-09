@@ -33,7 +33,7 @@ foreach ($fabricantes as $fabricante) {
 
 		<p>
             <label for="preco">Preço:</label>
-            <input required type="number" name="preco" id="preco" min="10" max="100000" step="0.01">
+            <input required type="number" name="preco" id="preco" min="100" max="1000000" step="0.01">
         </p>
 
         <p>
